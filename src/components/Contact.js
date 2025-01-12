@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import {Github, Linkedin, Mail} from 'lucide-react';
+
 const Contact = () => (
   <div className="bg-gray-800">
     <div className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:px-8">

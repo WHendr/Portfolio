@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { ExternalLink } from 'lucide-react';
+
 const Projects = () => {
   const projects = [
     {

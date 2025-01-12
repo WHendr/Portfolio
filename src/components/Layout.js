@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Menu, X , ExternalLink} from 'lucide-react';
 
 const Layout = ({ children, currentPage, setCurrentPage }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
