@@ -67,3 +67,5 @@ const Layout = ({ children, currentPage, setCurrentPage }) => {
     </div>
   );
 };
+
+export default Layout;
