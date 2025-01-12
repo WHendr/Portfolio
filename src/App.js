@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Menu, X, Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 
+import About from './components/About.js'
+
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
 
