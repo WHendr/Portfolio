@@ -5,9 +5,7 @@ const About = () => (
       <h2 className="text-3xl font-bold text-white mb-8">About Me</h2>
       <div className="prose prose-invert">
         <p className="text-gray-300 text-lg">
-          I'm a passionate full-stack developer with expertise in modern web technologies.
-          With several years of experience building web applications, I focus on creating
-          clean, efficient, and user-friendly solutions.
+          I'm a passionate developer interested in numerous fields of Computer Science
         </p>
         <h3 className="text-white text-xl mt-8 mb-4">Skills</h3>
         <div className="grid grid-cols-2 gap-4 text-gray-300">
