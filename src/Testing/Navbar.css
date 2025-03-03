@@ -1,0 +1,34 @@
+
+.Navbar {
+    display: flex;
+    padding: 0 2rem;
+    background-color: #282c34;
+    color: white;
+    height: 20px; /* Increased height for content */
+    flex-direction: row-reverse; /* This puts items on the right */
+    gap: 1rem;
+    align-items: center; /* Vertically centers the content */
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0; /* Positions at the very top */
+    left: 0; /* Start from the left edge */
+    right: 0; /* Extend to the right edge */
+}
+
+.NavbarButtons {
+    display: flex;
+    gap: 1rem;
+}
+
+.NavButton{
+    background: none; /* Removes background */
+    border: none; /* Removes border */
+    padding: 0; /* Removes default padding */
+    font: inherit; /* Keeps text styling consistent */
+    color: white; /* Adjust text color for contrast */
+    cursor: pointer; /* Ensures it's clickable */
+}
+
+.NavButton:hover {
+    color: yellow;
+    font-size: 18px;
+}
